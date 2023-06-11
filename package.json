@@ -1,0 +1,49 @@
+{
+  "name": "my-reactflow",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ui5/webcomponents": "~1.14.0",
+    "@ui5/webcomponents-fiori": "~1.14.0",
+    "@ui5/webcomponents-icons": "~1.14.0",
+    "@ui5/webcomponents-react": "^1.16.1",
+    "@ui5/webcomponents-react-base": "^1.16.0",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "reactflow": "11.7.2",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cypress run --component --browser chrome",
+    "eject": "react-scripts eject",
+    "test:open": "cypress open --component --browser chrome"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "/index.js",
+  "devDependencies": {
+    "@ui5/webcomponents-cypress-commands": "^1.16.0",
+    "cypress": "^12.14.0"
+  }
+}
